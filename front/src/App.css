@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pokemon-card img {
+  max-width: 100px;
+  display: inline;
+}
+
+.select-stat {
+  width: 150px;
+}
+
+.pokemon-card p{
+  margin-bottom: .5em;
+  text-align: left;
+}
+
+.card {
+  padding: 2em;
+}
+
+.menu-opts {
+  list-style: none;
+  display: flex;
+  float: right;
+}
+
+.menu-opts li {
+  color: whitesmoke;
+}
+
+.menu-opts li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu-opts li a:hover {
+  color: crimson;
+}
+
+li {
+  margin-left: 10px;
+}
+
+.menu-title {
+  list-style: none;
+  display: flex;
+  float: left;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+}
